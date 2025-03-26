@@ -1,5 +1,13 @@
 import unittest
+import sys
+import os
+
+# Añadir el directorio padre al sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import math_utils
+import math_utils
+
 
 class TestUtils(unittest.TestCase):
     def test_es_primo(self):
